@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'cherry_swashregular';
+    src: url('../Fonts/cherry/cherryswash-regular-webfont.woff2') format('woff2'),
+    url('../Fonts/cherry/cherryswash-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_condensedmedium';
+    src: url('../Fonts/helvetica/helvetica-condensed-webfont.woff2') format('woff2'),
+    url('../Fonts/helvetica/helvetica-condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #4c97a2;
+    height: 87px;
+    text-align: center;
+}
+
+.item-navbar {
+    font-family: 'helvetica_condensedmedium', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dce3e4;
+    font-size: 14px;
+    line-height: 87px;
+}
+
+.item-navbar:hover {
+    color: white;
+}
+
+.navbar-slash {
+    text-decoration: none;
+    color: #dce3e4;
+    cursor: default;
+    margin: 22px;
+}
+
+.logo {
+    font-family: 'cherry_swashregular', serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 328px;
+    font-size: 30px;
+    line-height: 87px;
+
+}
+
+/* HEADER MARE */
+
+.banner {
+    height: 476px;
+    background-image: url("../img/mareblu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.titolo {
+    font-family: 'helvetica', sans-serif;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding-top: 129px;
+    padding-bottom: 45px;
+}
+
+.center-title {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button {
+    font-family: 'helvetica', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 22px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 48px;
+    border-radius: 7px;
+
+}
+
+.center-button {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+.dots {
+    color: white;
+    font-size: 70px;
+    float: left;
+    text-align: center;
+    width: 20%;
+    cursor: default;
+    
+    
+}
+
+.center-dots {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    
+}
+.dots:hover {
+    color: gray;
+}
+
+.active {
+    color:gray;
+}
+/* FASCIA BIANCA */
+
+.text-info {
+    height: 443px;
+    text-align: center;
+
+}
+
+.subtitle {
+    font-family: 'helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #4c505d;
+    margin-top: 89px;
+}
+
+.center-subtitle {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text1 {
+    font-family: 'helvetica', sans-serif;
+    color: #4c505d;
+    font-size: 14px;
+    margin-top: 48px;
+    line-height: 25px;
+
+
+}
+
+.center-text1 {
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* FASCIA VERDE */
+
+.icon {
+    padding-right: 63px;
+    padding-left: 63px;
+    margin-top: 75px;
+}
+
+
+.img-info {
+    background-color: #00d089;
+    height: 468px;
+    text-align: center
+}
+
+.icon-bw {
+    padding-top: 96px;
+    padding-bottom: 50px;
+
+
+}
+
+.text2 {
+    font-family: 'helvetica', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.center-text2 {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MAPPA */
+
+.map {
+    height: 517px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 40px;
+    text-align: center;
+    background-color: #00d089;
+
+}
+
+.copy {
+    font-family: 'helvetica_condensedmedium', sans-serif;
+    color: white;
+    font-weight: lighter;
+    line-height: 40px;
+    margin: 0;
+}
